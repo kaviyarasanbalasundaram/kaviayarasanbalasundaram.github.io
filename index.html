@@ -3,80 +3,145 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kaviyarasan Balasundaram | Portfolio</title>
+<title>Kaviyarasan Balasundaram | Aspiring SOC Analyst</title>
+
 <style>
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: black;
-  color: white;
-  text-align: center;
+    background: black;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    margin: 0;
 }
+
 header {
-  padding: 40px;
-  background: #0f172a;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 2px solid #00ff00;
 }
+
 h1 {
-  color: #00ffcc;
+    font-size: 40px;
 }
+
+p {
+    font-size: 18px;
+}
+
 section {
-  padding: 30px;
+    padding: 40px;
 }
-.card {
-  background: #111827;
-  padding: 20px;
-  margin: 15px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #00ffcc;
+
+h2 {
+    color: #00ff00;
+    border-bottom: 1px solid #00ff00;
+    display: inline-block;
+    padding-bottom: 5px;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li::before {
+    content: "> ";
+}
+
+.project {
+    border: 1px solid #00ff00;
+    padding: 15px;
+    margin-top: 15px;
+    background: rgba(0,255,0,0.05);
+}
+
 footer {
-  padding: 20px;
-  background: #020617;
-  font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #00ff00;
+    font-size: 14px;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 </style>
 </head>
+
 <body>
 
 <header>
-  <h1>Kaviyarasan Balasundaram</h1>
-  <p>Aspiring SOC Analyst</p>
+    <h1>Kaviyarasan Balasundaram</h1>
+    <p>Aspiring SOC Analyst | Linux & Networking Enthusiast</p>
+    <p>root@kaviyarasan:~$ <span class="cursor">█</span></p>
 </header>
 
 <section>
-  <h2>About Me</h2>
-  <div class="card">
-    <p>Hello, I am Kaviyarasan Balasundaram. I am an aspiring SOC Analyst passionate about cybersecurity and ethical hacking.  
-    I am interested in networking, Linux, and security monitoring.</p>
-  </div>
-</section>
-
-<section>
-  <h2>Skills</h2>
-  <div class="card">Linux | Networking | Ethical Hacking Basics | HTML | Security Monitoring Fundamentals</div>
-</section>
-
-<section>
-  <h2>Projects</h2>
-  <div class="card">
-    <p>1. Personal Portfolio Website</p>
-    <p>2. Basic Cyber Security Labs</p>
-  </div>
-</section>
-
-<section>
-  <h2>Contact</h2>
-  <div class="card">
+    <h2>About Me</h2>
     <p>
-      Email: 
-      <a href="mailto:kaviyarasanb358@gmail.com">kaviyarasanb358@gmail.com</a>
+        I am an aspiring SOC Analyst with strong fundamentals in Linux, networking, and web technologies.
+        Passionate about cybersecurity, monitoring threats, analyzing logs, and defending systems.
+        Currently building hands-on labs and blue team knowledge to enter SOC roles.
     </p>
-    
-    <p>
-      GitHub: 
-      <a href="https://github.com/kaviyarasanbalasundaram" target="_blank">
-        github.com/kaviyarasanbalasundaram
-      </a>
-    </p>
-  </div>
 </section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Linux Administration</li>
+        <li>Networking Fundamentals (TCP/IP, DNS, HTTP, Ports)</li>
+        <li>HTML & Web Basics</li>
+        <li>Cyber Security Fundamentals</li>
+        <li>Virtual Machines (Kali Linux, Metasploitable)</li>
+        <li>Basic Vulnerability Analysis</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Tools</h2>
+    <ul>
+        <li>Kali Linux</li>
+        <li>Nmap</li>
+        <li>Metasploit</li>
+        <li>VirtualBox</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Vulnerable Lab Setup</h3>
+        <p>Configured Kali Linux and Metasploitable, scanned with Nmap, tested vulnerabilities.</p>
+    </div>
+
+    <div class="project">
+        <h3>Hacker Portfolio Website</h3>
+        <p>Designed and deployed a hacker-themed portfolio using HTML and GitHub Pages.</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kaviyarasanb358@gmail.com">kaviyarasanb358@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/kaviyarasanbalasundaram" target="_blank">github.com/kaviyarasanbalasundaram</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Kaviyarasan Balasundaram | Aspiring SOC Analyst</p>
+</footer>
+
+</body>
+</html>
